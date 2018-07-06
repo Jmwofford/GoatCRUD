@@ -1,0 +1,37 @@
+<div class="superclass">
+
+  <form action="/goats/{{goat._id}}?_method=PUT" method="POST">
+    <h1>Create New Legend</h1>
+    <div class="editParent">
+      <div>
+        <label for="title">Name: </label>
+        <input type="text" name="name" value='{{goat.name}}' ' />
+    </div>
+    <div>
+      <label for="description">Team: </label>
+      <input type="text" name="team" value='{{goat.team}} '>
+    </div>
+    <div>
+
+      <label for="subject">YearsPlayed: </label>
+      <input type="text" name="yearsPlayed" value='{{goat.yearsPlayed}} '' />
+      </div>
+      <div>
+        <label for="createdBy">Championships: </label>
+        <input type="text" name="rings" value='{{goat.rings}}' />
+      </div>
+      <div>
+        <label for="dueDate">ImageURL</label>
+        <input type="text" name="image" value='{{goat.image}}' />
+      </div>
+      <button class="buttonTemplate" type="submit">Update G.O.A.T.</button>
+  </form>
+  </div>
+  <br>
+  <br>
+  <br>
+  <img class="editImage2" src="http://www.gloucestercitynews.net/.a/6a00d8341bf7d953ef0133f2c78d85970b-800wi" alt="">
+  <img class="editImage" src="https://media.giphy.com/media/eexyt55mi2onEOF2rW/source.gif" alt="">
+
+
+</div>

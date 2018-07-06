@@ -1,0 +1,493 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-size: cover;
+color:white;
+background-color:grey;
+background-image:url('https://www.forumathletic.ca/wp-content/uploads/2012/04/basketball-court-backgrounds.jpg')
+
+}
+
+.swishtitle{
+  font-size:60px;
+  text-shadow: 5px 2px  rgb(187, 112, 25);
+  font-family:serif;
+  margin:0;
+  margin-left:15vw;
+  width:70vw;
+}
+.trophy{
+  height:180px;
+  widows: 380px;
+}
+.subtitle{
+  font-size:25px;
+  font-family: cursive;
+  justify-content: center;
+  margin-left: 35vw;
+  text-shadow: 2.5px 2.5px rgb(187, 112, 25);
+  color: white;
+  width:50vw;
+  background-image: url('https://media.giphy.com/media/XCG51GD8W6XEQ/giphy.gif');
+  background-size:cover;
+  /* border: solid rgb(187, 112, 25); */
+  border-radius:35px;
+  
+
+}
+.goatTitle{
+  font-size: 35px;
+}
+
+
+.goatIndexUl{
+  text-decoration: none;
+  font-size: 25px;
+  display: flex;
+  flex-wrap:wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  margin:25px;
+  
+
+  
+}
+.goatLiIndex{
+  margin:25px;
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  color:rgb(187, 112, 25)
+
+}
+.goatProfilePic{
+  height:320px;
+  width:300px;
+  border-width:6px;
+  border-radius: 50px;
+  padding: 20px;
+}
+.goatProfilePic:hover{
+  border: solid white;
+  border-width:6px;
+  border-radius: 50%;
+  transition:1s;
+}
+#paraTitle{
+  color:white;
+  text-shadow: 2px 2px rgb(187, 112, 25);
+  justify-content: center;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size:30px;
+  text-align:center;
+  padding: 10px;
+}
+#paraTitlename{
+  color:white;
+  text-shadow: 2px 2px rgb(187, 112, 25);
+  font-family: 'Courier New', Courier, monospace;
+  font-size:25px;
+  border: solid white;
+  border-radius: 35px;
+  background-image: url('https://cloud.istyles.com/images/Skins/DESIGN/500/DESIGN-BSKTBALL.jpg');
+  padding: 5px;
+
+}
+.buttonTemplate{
+  border-radius:50%;
+  font-size: 12px;
+  height: 85px;
+  width:85px;
+  border:solid white;
+  color:white;
+  background-image:url('https://cloud.istyles.com/images/Skins/DESIGN/500/DESIGN-BSKTBALL.jpg');
+  
+}
+.buttonTemplate:hover{
+  border-radius:50%;
+  font-size: 12px;
+  height: 120px;
+  width:120px;
+  border:solid white;
+  color:white;
+  background-image:url('https://cloud.istyles.com/images/Skins/DESIGN/500/DESIGN-BSKTBALL.jpg');
+  transition:.2s;
+}
+.trophyBanner{
+  max-height:100px;
+  max-width:100px;
+  position: relative;
+}
+input{
+  font-size:25px;
+  margin:15px;
+  border-radius: 25px;
+  justify-content:flex-end;
+  
+ 
+}
+.calegend{
+  font-family:serif;
+  text-align: center;
+  font-size:45px;
+  text-shadow: 2px 2px rgb(187, 112, 25);
+
+
+
+}
+.flexboxMove{
+  display: flex;
+  justify-content: center;
+}
+label{
+ font-size: 25px; 
+ text-shadow: 2px 2px black;
+ justify-content: flex-end;
+
+}
+.label{
+  font-size:25px;
+  justify-content: flex-end;
+}
+
+.createPlayer{
+  justify-content: right;
+  position: relative;
+  margin-left:120px;
+  height: 370px;
+  border-radius:95px;
+  width:auto;
+  margin-bottom:30px;
+border:solid rgb(187, 112, 25); 
+}
+
+.accoladeLI{
+  font-size: 20px;
+  display:flex;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-radius:45px;
+  height:35px;
+  width:250px;
+  text-align: center;
+  padding:15px;
+  border: double white;
+  text-shadow: 1px 1px black;
+  font-weight:bold;
+  background-image: url("https://cloud.istyles.com/images/Skins/DESIGN/500/DESIGN-BSKTBALL.jpg");
+  background-size: cover;
+  
+
+}
+.flexAccolade{
+  display:flex;
+  position: absolute;
+  margin-left:600px;
+  margin-bottom: 600px;
+}
+form{
+  position: absolute;
+  margin:35px;
+}
+.centerAccolade{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-radius:50%;
+  color:white;
+  border:double white;
+  justify-content: center;
+  max-width: 350px;
+  margin-left:75px;
+}
+.centerAccoladeText{
+  text-shadow: 1.5px 1.5px black;
+  max-width: 350px;
+  font-size:35px;
+  font-family:serif;
+margin-left:80px;
+padding:15px;
+justify-content: center;
+text-align: center;
+}
+.parentShow{
+  display: flex;
+  border-width: 2px;
+ 
+}
+.childShowFlex2{
+  border:solid white;
+  border-width:2px;
+  border-radius:25px;
+  margin:30px;
+  margin-left:140px;
+  transform: scale(1.1);
+  box-shadow: 0px 57px 34px -40px rgba(0,0,0,0.3), 0px 3px 40px 2px rgba(0,0,0,.2);
+  padding: 20px;
+  justify-content: center;
+  background-image:url('');
+  background-size:cover;
+}
+.childShowFlex{
+  /* margin-left:100px; */
+}
+
+
+
+.buttonTemplateNew{
+  border-radius:50%;
+  font-size: 12px;
+  height: 85px;
+  margin-left:55px;
+  margin-top:70px;
+  width:85px;
+  border:solid white;
+  color:white;
+  background-image:url('https://cloud.istyles.com/images/Skins/DESIGN/500/DESIGN-BSKTBALL.jpg');
+  font-family: 'Courier New', Courier, monospace
+
+}
+.buttonTemplateNew:hover{
+  border-radius:50%;
+  font-size: 20px;
+  margin-top:72px;
+  height: 120px;
+  width:120px;
+  border:solid white;
+  color:white;
+  background-image:url('https://cloud.istyles.com/images/Skins/DESIGN/500/DESIGN-BSKTBALL.jpg');
+  transition:.2s;
+  
+}
+
+.historyTitleBox{
+  text-align:center;
+  font-size:15px;
+  border:solid white;
+  border-width:2px;
+  padding: 20px;
+}
+img{
+  max-height:350px;
+  max-width: auto;
+}
+.highlightHistory{
+  height:390px;
+  width: 1000px;
+  border-radius:40px;
+  border-width:13px;
+  /* margin-right:620px; */
+  margin:50px;
+ 
+  border: solid rgb(187, 112, 25);
+}
+.sorryJamie{
+  font-size:15px;
+  border: solid white;
+  margin:0;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color:white;
+  background-image:url('https://cloud.istyles.com/images/Skins/DESIGN/500/DESIGN-BSKTBALL.jpg');
+  border-radius:50px;
+}
+.fxmove{
+  border:solid rgb(187, 112, 25);
+  padding-top:22px;
+  padding-left:22px;
+  background-image:url('https://media.giphy.com/media/pEkHID4XqCNnq/giphy.gif');
+  height:190px;
+  background-size: cover;
+  margin:15px;
+  border-radius:35px;
+  border-width:2px;
+
+}
+
+.fxmove2{
+  border:solid  rgb(187, 112, 25);
+  padding-top:22px;
+  padding-left:22px;
+  background-image:url('https://78.media.tumblr.com/cd14f25d102bc53c81dd4529345f98d1/tumblr_nqq36fPuNy1s3gys4o1_400.gif');
+  background-size: cover;
+  height:190px;
+  margin:15px;
+  border-radius:35px;
+  border-width:2px;
+
+
+}
+.fxmove3{
+  border:solid  rgb(187, 112, 25);
+  padding-top:22px;
+  padding-left:22px;
+  background-image: url('http://www.thisiscolossal.com/wp-content/uploads/2016/09/MartinWhatson_02.jpg');
+  background-size: cover;
+  height:190px;
+margin:15px;
+border-radius:35px;
+border-width:2px;
+
+  
+
+}
+.ringAlterLeft {
+  border-radius:50%;
+  border: double white;
+  height:535px;
+  width:338px;
+  margin-left:85px;
+  border-width:12px;
+}
+.ringalterRight{
+  border:double white;
+  border-radius:50%;
+  height:535px;
+  width:338px;
+  margin-left:65px;
+  border-width:12px;
+}
+input{
+  border:solid rgb(187, 112, 25);
+}
+.newstyle{
+  padding:10px;
+}
+.indexstyle{
+  border: double white;
+  background-image:url('https://cloud.istyles.com/images/Skins/DESIGN/500/DESIGN-BSKTBALL.jpg');
+  box-shadow: 0px 57px 34px -40px rgba(0,0,0,0.3), 0px 3px 40px 2px rgba(0,0,0,.2);
+
+}
+.historyimagebron{
+      margin-left:400px;
+}
+.momntHistory{
+  margin-left: 440px;
+  font-family:serif;
+  border: solid white;
+  border-radius:35px;
+  background-image:url('https://cloud.istyles.com/images/Skins/DESIGN/500/DESIGN-BSKTBALL.jpg');
+  width:400px;
+  text-align:center;
+}
+.momntHistory2{
+  margin-left: 410px;
+  font-family:serif;
+  border: solid white;
+  border-radius:35px;
+  background-image:url('https://cloud.istyles.com/images/Skins/DESIGN/500/DESIGN-BSKTBALL.jpg');
+  width:400px;
+  text-align:center;
+}
+marginShifthistory{
+  margin-left:400px;
+padding:40px;
+}
+.editImage{
+  margin-left:400px;
+  position: absolute;
+  margin-top:45px;
+  border-radius: 50%;
+  border: solid white;
+  
+}
+.editParent{
+margin:35px;
+/* border:solid white; */
+padding:25px;
+}
+.teamlogobulls{
+  height:50px;
+  width:50px;
+  border-radius:50%;
+  border: solid black;
+ background-image: url('https://i.pinimg.com/originals/65/9f/56/659f56985c562ae41f8a100e2cdcded4.png');
+  display:flex;
+  background-size:cover;
+}
+.teamlogolakers{
+  height:50px;
+  width:50px;
+  border-radius:50%;
+  border: solid black;
+  background-image: url('https://i.pinimg.com/736x/95/f9/62/95f9621c8198e5cc25b2beacdb4ee773--sports-wallpapers-basket-ball.jpg');
+  display:flex;
+  background-size:cover;
+}
+.teamlogoceltics{
+  height:50px;
+  width:50px;
+  border-radius:50%;
+  border: solid black;
+  background-image: url('https://s-media-cache-ak0.pinimg.com/originals/71/38/e6/7138e677757f8cb644beebfb7504f573.png');
+  display:flex;
+  background-size:cover;
+}
+.teamlogospurs{
+  height:50px;
+  width:50px;
+  border-radius:50%;
+  border: solid black;
+  background-image: url('https://i.pinimg.com/originals/77/fd/9f/77fd9fe8cbefbc9b0b19545a30f32b7c.jpg');
+  display:flex;
+  background-size:cover;
+}
+/* --------------------------------------- */
+
+.teamlogospacejam{
+  height:50px;
+  width:50px;
+  border-radius:50%;
+  border: solid black;
+  background-image: url('https://stmed.net/sites/default/files/brooklyn-nets-wallpapers-30952-2021471.png');
+  display:flex;
+  background-size:cover;
+}
+.teamlogorockets{
+  height:50px;
+  width:50px;
+  border-radius:50%;
+  border: solid black;
+  background-image: url('https://i.pinimg.com/originals/71/b4/95/71b495141b6e5b2501e8020de09a29f8.jpg');
+  display:flex;
+  background-size:cover;
+}
+.teamlogoknicks{
+  height:50px;
+  width:50px;
+  border-radius:50%;
+  border: solid black;
+  background-image: url('http://paperlief.com/images/new-york-knicks-alternate-logo-wallpaper-2.jpg');
+  display:flex;
+  background-size:cover;
+}
+.teamlogosixers{
+  height:50px;
+  width:50px;
+  border-radius:50%;
+  border: solid black;
+  background-image: url('http://www.prosportsbackgrounds.com/assets/philadelphia_76ers_2017_hardwood_wallpaper_pc_2.png');
+  display:flex;
+  background-size:cover;
+}
+.teamlogohawks{
+  height:50px;
+  width:50px;
+  border-radius:50%;
+  border: solid black;
+  background-image: url('http://www.prosportsbackgrounds.com/assets/atlanta_hawks_2017_hardwood_wallpaper_pc_2.png');
+  display:flex;
+  background-size:cover;
+
+}
+.teamlogoFlexParent{
+  display:flex;
+  justify-content: space-around;
+  margin:10px;
+  /* border:solid black; */
+ 
+}
+.teamPic{
+  background-image: url('https://i.pinimg.com/originals/65/9f/56/659f56985c562ae41f8a100e2cdcded4.png')
+}
+.superclass{
+  margin-bottom:190px;
+}

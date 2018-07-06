@@ -1,0 +1,62 @@
+<div class="parentShow">
+
+    <div class="childShowFlex">
+        <ul>
+            {{#each accolades}}
+            <li class="accoladeLI">Signature Move: {{sigMove}}</li>
+            <br>
+            <br>
+            <br>
+            <br>
+            <li class="accoladeLI">Scoring High: {{scoreHigh}}</li>
+            <br>
+            <br>
+            <br>
+            <br>
+            <li class="accoladeLI">Offensive MVP? : {{offMvp}}</li>
+            <br>
+            <br>
+            <br>
+            <br>
+            <li class="accoladeLI">Defensive MVP? : {{defMvp}}</li>
+            <br>
+            <br>
+            <br>
+            <br>
+            <li class="accoladeLI">Scoring Title? : {{scoreTitle}}</li>
+
+
+
+            {{/each}}
+        </ul>
+    </div>
+
+
+    <div class="childShowFlex2">
+        <h1 class="centerAccoladeText">{{goat.name}} </h1>
+
+        <br>
+        <img class="centerAccolade" src="{{goat.image2}}" alt="">
+        <br>
+        <h1 class="centerAccoladeText">Championship Rings: {{goat.rings}}</h1>
+        <audio autoplay src="{{goat.audio}}"></audio>
+    </div>
+
+
+    <div class="childShowFlex">
+        <a href="/goats/{{goat._id}}/edit">
+            <button class="buttonTemplateNew">Edit This Legend</button>
+        </a>
+        <br>
+        <a href="/goats/{{goat._id}}/history">
+            <button class="buttonTemplateNew">Hall Of Fame History</button>
+        </a>
+        <br> {{goat.AccoladeSchema}}
+
+        <form action="/goats/{{goat._id}}?_method=DELETE" method="POST">
+            <button class="buttonTemplateNew" type="submit" class="bench">BENCH SCRUB</button>
+        </form>
+
+
+    </div>
+</div>

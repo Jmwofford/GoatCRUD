@@ -1,0 +1,39 @@
+<div class="historyTitleBox">
+    <h1 class="indexstyle">{{goat.name}} Moments in History</h1>
+    <br>
+    <br>
+    <img src="{{goat.image}}" alt="">
+    <br>
+    <h2>Historical Moments:</h2>
+
+
+
+    <br> {{#each history}}
+    <br>
+    <h2>Most Notable Moments: {{notableGm}}</h2>
+
+    
+    <br> {{/each}}
+    <a href="/goats/{{goat._id}}/history/new">
+        <button class="buttonTemplate">Create New History</button>
+    </a>
+
+    <div class="historyEvent ">
+        <img class="highlightHistory" src="{{goat.newimg1}}" alt="">
+    </div>
+    <br>
+
+    <div class="historyEvent2 ">
+        <img class="highlightHistory" src="{{goat.newimg2}}" alt="">
+    </div>
+    <br>
+    <div class="historyEvent3 ">
+        <img class="highlightHistory" src="{{goat.newimg3}}" alt="">
+    </div>
+    <br>
+
+    <div class="historyEvent4 ">
+        <img class="highlightHistory" src="{{goat.newimg4}}" alt="">
+    </div>
+
+</div>

@@ -1,0 +1,28 @@
+<p> {{name}}</p>
+
+<a href="/goats/new">
+  <button class="buttonTemplate">Create New Legend</button>
+</a>
+<div class="flexContainer">
+  <ul class="goatIndexUl flexContainer">
+    {{#each goatsArray}}
+
+    <li class="goatLiIndex">
+
+      <a href="/goats/{{_id}}">
+
+
+        <img class="goatProfilePic" src="{{image}}" alt="">
+
+        <p id="paraTitlename">{{name}} </p>
+
+        <p id="paraTitle"> {{team}}</p>
+
+        <p id="paraTitle"> Championships : {{rings}}</p>
+
+      </a>
+    </li>
+    {{/each}}
+  </ul>
+
+</div>
